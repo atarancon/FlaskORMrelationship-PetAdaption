@@ -2,11 +2,11 @@
 {% block content %}
 <div class="jumbotron">
   <h1>Here is a list of all available puppies.</h1>
-  <ol>
+  <ul>
     {% for pup in puppies  %}
-    <li>{{pup}}</li>
+    <li><strong>ID: {{pup.id}} </strong>{{pup}}</li>
     {% endfor %}
-  </ol>
+  </ul>
 
 </div>
 {% endblock %}
