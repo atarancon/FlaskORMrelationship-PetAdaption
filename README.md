@@ -12,5 +12,6 @@
 
 # Bootstrap Front end
 
-# Don't forget to migrate Flask Database
+# Installation instrction 
+* Don't forget to migrate Flask Database
 *  then run py file
