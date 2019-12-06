@@ -3,7 +3,7 @@ from wtforms import StringField, IntegerField, SubmitField
 
 class AddOwner(FlaskForm): 
     name = StringField("Name of owner:")
-    id = IntegerField("ID of Puppy")
+    id = IntegerField("Which puppy do you want?, Enter ID:")
     submit = SubmitField("Add owner")
 
 class AddForm(FlaskForm):
