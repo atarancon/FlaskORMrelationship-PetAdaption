@@ -15,6 +15,7 @@
 # Installation instruction 
 * Create a virtual env with conda or pip 
 * conda create -n  nameofenv  python=latestversion
+* activate new environment  
 * Install requirement packages
 * pip install -r requirement.txt
 * Don't forget to migrate Flask Database
