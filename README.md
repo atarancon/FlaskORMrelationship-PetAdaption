@@ -12,6 +12,8 @@
 
 # Bootstrap Front end
 
-# Installation instrction 
+# Installation instruction 
+* Create a virtual env with conda or pip 
+* Install requirement packages
 * Don't forget to migrate Flask Database
 *  then run py file
